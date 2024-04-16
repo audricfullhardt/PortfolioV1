@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* style poignée scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #9290C3 ;
+    border-radius: 5px;
+}
+
+/* style piste scrollbar */
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    background-color: #070F2B;
+}
+header{
+    background-color: #474F7A;
+    height: 12vh;
+}
+nav{
+    width: 1080px;
+    margin: 0 auto;
+}
+nav ul{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 550;
+}
+/* ACCUEIL ************************************************************************************************************************** */
+
+#landing-flex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30vh;
+}
+#accueil{
+    height: 88vh;
+}
+#accueil h1{
+    text-align: center;
+    font-size: 60px;
+}
+#accueil p{
+    font-size: 45px;
+    text-align: center;
+}
+#a-decouvrir{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 30vh;
+    
+}
+#down-arrow{
+    width: 40px;
+    filter: invert(1);
+}
+
+/* ACCUEIL ************************************************************************************************************************** */
+
+
+
+/* PRESENTATION ********************************************************************************************************************* */
+
+#presentation{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#presentation-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+}
+#presentation-grid p{
+    font-size: 30px;
+}
+#presentation-grid button{
+    width: 40%;
+    height: 5%;
+    border-radius: 10px;
+    background-color: #9290C3;
+    border: none;
+    margin-left: 30%;
+    color: white;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-top: 10%;
+}
+#corporate{
+    height: 70vh;
+    width: 25vw;
+    border-radius: 20px;
+    background-image: url(images/audric.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* PRESENTATION ********************************************************************************************************************* */
+
+/* TRAVAUX ************************************************************************************************************************** */
+
+#travaux{
+    height: 100vh;
+    padding-top: 2vh;
+}
+#travaux h1{
+    margin-top: 2vh;
+    text-align: center;
+    height: fit-content;
+}
+#travaux-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.button-grid{
+    width: 10vw;
+    height: 3vw;
+    border-radius: 20px;
+    border: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#dev-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 55vw;
+}
+#crea-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 55vw;
+}
+#visuel-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 55vw;
+}
+#proj-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 55vw;
+}
+#button1{
+    background-image: url(images/html.svg);
+}
+#button2{
+    background-image: url(images/css.svg);
+}
+#button3{
+    background-image: url(images/php.svg);
+}
+#button4{
+    background-image: url(images/docker.svg);
+}
+#button5{
+    background-image: url(images/vscode.svg);
+}
+#button6{
+    background-image: url(images/photoshop.svg);
+}
+#button7{
+    background-image: url(images/illustrator.svg);
+}
+#button8{
+    background-image: url(images/premiere-pro.svg);
+}
+#button9{
+    background-image: url(images/after-effect.svg);
+}
+#button10{
+    background-image: url(images/word.svg);
+}
+#button11{
+    background-image: url(images/powerpoint.svg);
+}
+#button12{
+    background-image: url(images/figma.svg);
+}
+#button13{
+    background-image: url(images/excel.svg);
+}
+
+
+/* TRAVAUX ************************************************************************************************************************** */
+/* CONTACT ************************************************************************************************************************** */
+
+#contact{
+    height: 100vh;
+}
+#contact h1{
+    text-align: center;
+    padding-top: 2vh;
+}
+#contact-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-button{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 4vh;
+}
+/* CONTACT ************************************************************************************************************************** */
